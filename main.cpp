@@ -23,7 +23,15 @@ int main(){
             cout<<num1 + num2<<endl;
             break;}
         
-           
+        case 2:
+        { int num1;
+            int num2;
+            cout<<"Enter Num1 : "<<endl;
+            cin>>num1;
+            cout<<"Enter Num2 : "<<endl;
+            cin>>num2;
+            cout<<num1 - num2<<endl;
+            break;}
         case 3:
            { int num1;
             int num2;
@@ -33,7 +41,18 @@ int main(){
             cin>>num2;
             cout<<num1 + num2<<endl;
             break;}
-        
+        case 4:
+        {
+            int num1;
+            int num2;
+            cout<<"Enter Num1 : "<<endl;
+            cin>>num1;
+            cout<<"Enter Num2 : "<<endl;
+            cin>>num2;
+            cout<<num1 / num2<<endl;
+            break;
+
+        }
         default:
             break;
         }
