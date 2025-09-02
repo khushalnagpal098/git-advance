@@ -14,8 +14,25 @@ int main(){
         switch (choice)
         {
         case 1:
-            /* code */
-            break;
+           { int num1;
+            int num2;
+            cout<<"Enter Num1 : "<<endl;
+            cin>>num1;
+            cout<<"Enter Num2 : "<<endl;
+            cin>>num2;
+            cout<<num1 + num2<<endl;
+            break;}
+        
+           
+        case 3:
+           { int num1;
+            int num2;
+            cout<<"Enter Num1 : "<<endl;
+            cin>>num1;
+            cout<<"Enter Num2 : "<<endl;
+            cin>>num2;
+            cout<<num1 + num2<<endl;
+            break;}
         
         default:
             break;
